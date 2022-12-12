@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        background-color: rgb(217, 224, 251);
+      }
+
+      #qr-code-main-component {
+        background-color: white;
+        width: 15%;
+        margin: auto;
+        border-radius: 5%;
+        padding-bottom: 0.6%;
+        margin-bottom: 10%;
+      }
+
+      #qr-code-main-component-image-element {
+        width: 90%;
+        margin: auto;
+        margin: 5%;
+        border-radius: 5%;
+      }
+
+      #qr-code-main-component-text-container {
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+        margin-top: 2%;
+      }
+      #qr-code-main-component-text-header {
+        font-size: 0.9rem;
+        font-weight: bold;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin-bottom: 6%;
+      }
+
+      #qr-code-main-component-text-body {
+        font-size: 0.7rem;
+        color: rgb(146, 142, 142);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- qr-code -->
+    <div id="qr-code-main-component">
+      <!-- image component -->
+      <div id="qr-code-main-component-image-container">
+        <div id="qr-code-main-component-image">
+          <img
+            src="images/image-qr-code.png"
+            alt="qr-code"
+            id="qr-code-main-component-image-element"
+          />
+        </div>
+      </div>
+
+      <!-- text component -->
+      <div id="qr-code-main-component-text-container">
+        <div id="qr-code-main-component-text-header">
+          Improve your front-end skills by building projects
+        </div>
+        <div id="qr-code-main-component-text-body">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
